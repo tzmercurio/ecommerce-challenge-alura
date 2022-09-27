@@ -1,0 +1,167 @@
+@media (max-width: 768px) {
+    .header {
+        height: 80px;    
+    }
+    .menu__left{
+        margin-left: 32px;
+    }
+    .menu__search{
+        padding: 8px 2px; 
+        width: 230px; 
+    }
+    .text__search{
+        width: 180px;
+    }
+    .menu__right{
+        margin-right: 32px;
+    }
+    .menu__button__right{ 
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .formproduct{
+        height: 545px;
+    }
+    .formproduct__form{
+        margin-top: 32px;
+    }
+    .formproduct__form h3{
+        font-size: 22px; 
+    }
+    .formproduct__form__container{
+        height: 50px;
+        width: 705px;
+    }
+    .formproduct__textarea{
+        margin-top: 10px;
+        height: 80px; 
+        width: 705px;
+    }
+    .formproduct__button{
+        font-size: 16px;
+        margin: 10px 0;
+        height: 51px;
+        width: 705px;
+    }
+    .formcontact{
+        height: 364px;  
+    }
+    .formcontact__contact{
+        display: flex;
+        margin: 0px 32px;
+    }
+    .formcontact_left{
+        display: flex;
+        flex-direction: column;
+    }
+    .formcontact__img{
+        margin-top: 42px;
+    }
+    .formcontact__text{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .formcontact__form{
+        margin-top: 32px;
+    }
+    .formcontact__input{
+        height: 50px;
+        width: 430px;
+    }
+    .formcontact__textarea{
+        height: 65px;
+        width: 430px;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        height: 80px;    
+    }
+    .menu__left{
+        margin-left: 16px;
+    }
+    .menu__search{
+        display: none;  
+    }
+    .menu__right{
+        margin-right: 0px;
+    }
+    .menu__button__right{
+        align-items: center;
+        display: flex; 
+        font-size: 14px;
+        height: 16px;
+        justify-content: center;
+        padding: 14px 20px;
+        width: 150px;
+    }
+    .menu__icon{
+        display: flex;  
+    }
+    .menu__icon__search{
+        align-items: center;
+        display: flex;
+        margin-right: 16px;
+    }
+    .formproduct{
+        height: 520px;
+        margin: 16px 16px;
+    }
+    .formproduct__form{
+        margin-top: 16px;
+    }
+    .formproduct__form h3{
+        font-size: 22px; 
+        text-align: start;
+    }
+    .formproduct__form__container{
+        height: 50px;
+        width: 405px; 
+    }
+    .formproduct__textarea{
+        margin-top: 10px;
+        height: 80px; 
+        width: 405px;
+    }
+    .formproduct__button{
+        font-size: 16px;
+        height: 51px;
+        margin: 10px 0px;
+        width: 405px;
+    }
+    .formcontact{
+        height: 630px;  
+    }
+    .formcontact__contact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 16px;
+    }
+    .formcontact_left{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .formcontact__img{
+        margin-top: 32px;
+    }
+    .formcontact__text{
+        margin-top: 0px;
+    }
+    .formcontact__form{
+        margin-top: 0px;
+    }
+    .formcontact__input{
+        height: 50px;
+        width: 395px;
+    }
+    .formcontact__textarea{
+        height: 65px;
+        width: 395px
+    }
+ 
+}
+

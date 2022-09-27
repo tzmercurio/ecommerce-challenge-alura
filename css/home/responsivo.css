@@ -1,0 +1,152 @@
+@media (max-width: 768px) {
+    .header {
+        height: 72px;    
+    }
+    .menu__left{
+        flex-grow: 1;
+        margin-left: 32px;
+    }
+    .menu__right{
+        margin-right: 32px;
+    }
+    .formlogin{
+        height: 320px;
+    }
+    .formlogin__form{
+        margin: 32px;
+    }
+    .formlogin__form h3{
+        font-size: 16px;
+    }
+    .formlogin__input{
+        height: 45px; 
+        width: 280px;
+    }
+    .formlogin__password{
+        height: 45px; 
+        width: 280px;
+    }
+    .formlogin__button{
+        font-size: 16px;
+        height: 42px; 
+        margin-left: 80px; 
+        padding: 10px;
+        width: 110px;
+    }
+    .formcontact{
+        height: 364px;  
+    }
+    .formcontact_left{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    .formcontact__contact{
+        display: flex;
+        margin: 0px 32px;
+    }
+    .formcontact__img{
+        margin-top: 42px;
+    }
+    .formcontact__text{
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .formcontact__form{
+        margin-top: 32px;
+    }
+    .formcontact__input{
+        height: 50px; 
+        width: 430px;
+    }
+    .formcontact__textarea{
+        height: 65px;
+        width: 430px;
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        display: flex;
+        height: 80px;    
+    }
+    .menu__left{
+        margin-left: 16px;
+    }
+    .menu__search{
+        display: none;  
+    }
+    .menu__right{
+        margin-left: 32px;
+    }
+    .menu__button__right{
+        padding: 16px 70px;
+    }
+    .menu__icon{
+        display: flex;  
+    }
+    .menu__icon__search{
+        align-items: center;
+        display: flex;
+        margin-right: 16px;
+    }  
+    .formlogin{
+        height: 320px;
+    }
+    .formlogin__form{
+        margin: 32px;
+    }
+    .formlogin__form h3{
+        font-size: 16px;
+    }
+    .formlogin__input{
+        height: 45px; 
+        width: 280px;
+    }
+    .formlogin__password{
+        height: 45px;
+        width: 280px;
+    }
+    .formlogin__button{
+        font-size: 16px;
+        height: 42px; 
+        margin-left: 80px; 
+        padding: 9px;
+        width: 110px;
+    }
+    .formcontact{
+        height: 630px;  
+    }
+    .formcontact__contact{
+        align-items: center; 
+        display: flex;
+        flex-direction: column;
+        margin: 0px 16px;
+    }
+    .formcontact_left{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .formcontact__img{
+        margin-top: 32px;
+    }
+    .formcontact__text{
+        margin-top: 0px; 
+    }
+    .formcontact__form{
+        margin-top: 0px;
+    }
+    .formcontact__input{
+        height: 50px; 
+        width: 395px; 
+    }
+    .formcontact__textarea{
+        height: 65px;
+        width: 395px;
+    }
+}
+

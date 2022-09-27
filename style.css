@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    background-color:  #F5F5F5 ;
+    display: grid;
+    font-family: 'Raleway';
+    grid-template-areas:
+    "menu"
+    "header"
+    "contents"
+    "formulario" 
+    "rodapie";
+    grid-template-columns: auto;
+    grid-template-rows: 0px auto auto;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none; 
+}
+
+.header {
+    background: #FFFFFF;
+    display: flex;
+    grid-area: header;
+    height: 115px;
+    justify-content: space-between; 
+}
+
+.contents {
+    grid-area: contents;
+}
+
+.rodapie {
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    color: #333333; 
+    grid-area: rodapie;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+}

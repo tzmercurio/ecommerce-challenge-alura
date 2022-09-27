@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap">
+    <script src="https://kit.fontawesome.com/b1754f00fd.js" crossorigin="anonymous"></script>">
+    <title>E-COMMERCES</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./css/home/menu.css" rel="stylesheet">
+    <link href="./css/home/form-contact.css" rel="stylesheet">
+    <link href="./css/home/form-login.css" rel="stylesheet">
+    <link href="./css/home/responsivo.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="menu__left">
+            <img src="./img/Logo (1).png" alt="logo" class="menu__logo">
+            <div class="menu__search">
+                <input class="text__search" type="text" placeholder="¿Que deseas buscar?....">
+                <a href="" class="menu__button__left"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+        <nav class="menu__right">
+            <button class="menu__button__right">
+                login
+            </button>
+        </nav>
+        <div class="menu__icon">
+            <a href="" class="menu__icon__search"><i class="fa-solid fa-magnifying-glass" id="icon"></i></a>
+        </div>
+    </header>
+    <main class="contents">
+        <section class="formlogin" id="login">
+            <div  class="formlogin__login">
+                <form class="formlogin__form" name="form">
+                    <h3>Iniciar Sesión</h3>
+                    <div class="formlogin__form__container">
+                        <input class="formlogin__input" name="email" id="email" type="email" placeholder="Escriba su correo electronico" required data-tipo="email">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="formlogin__form__container">
+                        <input class="formlogin__password"  name="password" id="password" type="password" placeholder="Escriba su contraseña" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password"></input>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <a href="./products-1.html" type="submit" class="formlogin__button">Entrar</a>
+                </form>
+            </div>
+        </section>
+        <section class="formcontact" id="contact">
+            <div  class="formcontact__contact">
+                <div class="formcontact_left">
+                    <div class="formcontact__image">
+                        <img class="formcontact__img" src="./img/Logo (1).png">
+                    </div>
+                    <div class="formcontact__text">
+                        <h4 class="formcontact__subtext">Quienes somos</h4>
+                        <h4 class="formcontact__subtext">Politica de privacidad</h4>
+                        <h4 class="formcontact__subtext">Programa de fidelidad </h4>
+                        <h4 class="formcontact__subtext">Nuestra tienda</h4>
+                        <h4 class="formcontact__subtext">Quiero ser fanquiciado</h4>
+                        <h4 class="formcontact__subtext">Anuncie aqui</h4>
+                    </div>
+                </div>
+                <form class="formcontact__form" name="form">
+                    <div class="formcontact__form__container">
+                        <label class="formcontact__label" for="#">Hable con nosotros</label>
+                        <input class="formcontact__input" id="nombre" type="text" name="nombre" placeholder="Nombre" required pattern="[\s\S]{0,50}" data-tipo="name" maxlength="">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="formcontact__form__container">
+                        <textarea class="formcontact__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Escribe tu mensaje" required pattern="[\s\S]{0,300}" data-tipo="mensaje" maxlength="50"></textarea>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <div class="footer__rodape">
+            <p>Desarrollado por Mauricio Echeverria Rodriguez</p>
+            <p>2022</p>
+        </div>
+    </footer>
+    <script src=""></script>
+</body>
+</html>

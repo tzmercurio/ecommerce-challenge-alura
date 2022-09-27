@@ -1,0 +1,35 @@
+.hightlights__main{
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    height: 688px; 
+    margin: 64px 150px; 
+}
+.hightlights__izquierda{
+    border-radius: 12px;
+    display: flex;
+    width: 50%;
+}
+.hightlights__img{
+    height: 400x;
+    width: 550px;
+}
+.hightlights__box{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1;
+    width: 60%;   
+}
+.hightlights__main h2{
+    color: #464646;
+    font-size: 50px;
+    font-weight: 500;
+}
+.hightlights__main h3{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2px;
+    text-align: justify;
+}

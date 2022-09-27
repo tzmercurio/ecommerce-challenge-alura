@@ -1,0 +1,83 @@
+.formcontact{
+    background: #EAF2FD;
+    height: 420px;
+}
+.formcontact__contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px 0px 150px;
+}
+.formcontact_left{
+    display: flex;
+}
+.formcontact__img{
+    margin-top: 79px;
+}
+.formcontact__text{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 64px;
+    margin-left: 130px;
+}
+.formcontact__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+.formcontact__form__container{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.formcontact__label{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 700;
+}
+.formcontact__input{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    width: 580px;
+    height: 55px; 
+}
+#nombre::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+}
+.formcontact__textarea{
+    color: #A2A2A2;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    height: 85px;
+    margin: 15px 0;
+    width: 580px;
+}
+.formcontact__textarea::placeholder{
+    color: #A2A2A2;
+    font-size: 16px;
+    padding: 5px;
+}
+.formcontacto__boton{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: none;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 16px;
+    width: 150px;
+}
+.formcontacto__boton:hover{
+    color: black;
+    background-color: #008f39;
+}
+.input-message-error{
+    display: none;
+}
